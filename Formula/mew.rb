@@ -1,28 +1,28 @@
 class Mew < Formula
   desc "Terminal AI coding assistant"
   homepage "https://mew.computer"
-  version "0.2.0-pre.20261119.143"
+  version "0.2.0-pre.20261120.144"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261119.143/mew-v0.2.0-pre.20261119.143-aarch64-apple-darwin.tar.gz"
-      sha256 "4350393c0916bc407935c6f4052c6fc1e68152c7bd0d565b5233ecfefdee1ad6"
+      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261120.144/mew-v0.2.0-pre.20261120.144-aarch64-apple-darwin.tar.gz"
+      sha256 "58dc1bdc78c2f9fb70f9fb821ba22f044edc982dc83d09fe0893860583190d51"
     end
     on_intel do
-      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261119.143/mew-v0.2.0-pre.20261119.143-x86_64-apple-darwin.tar.gz"
-      sha256 "a63a955210f0d4f849dfe835fbf86fcb7fce5cce7b15d4371754e0f7e3df52da"
+      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261120.144/mew-v0.2.0-pre.20261120.144-x86_64-apple-darwin.tar.gz"
+      sha256 "7ca0824cd2190cbc3573a10db31e661c8c8512c370382ab40d6ef23a63490fe5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261119.143/mew-v0.2.0-pre.20261119.143-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "174db69aa74827d33ea9e63a409ce528c29c3826929f97f3d9611b8f172c7157"
+      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261120.144/mew-v0.2.0-pre.20261120.144-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9876de5b6bb2665ea64571e4b0d8cd23c5cc7cf565629018d06c2e51c734d278"
     end
     on_intel do
-      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261119.143/mew-v0.2.0-pre.20261119.143-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1f25b5fbe466190e38e15525b1c99c2c94ea1a06e9acf2f270f8e9c724f6117e"
+      url "https://github.com/mewcomputer/mew/releases/download/nightly-v0.2.0-pre.20261120.144/mew-v0.2.0-pre.20261120.144-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "46de46ba8394f72027ee9e603b76e97aa6cc4dba7917c44c1670999b83917177"
     end
   end
 
